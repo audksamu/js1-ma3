@@ -10,9 +10,9 @@ h1 {
     padding: 1rem;
     background: white;
     border: 1px solid lightgrey;
-    max-width: 800px;
+    /*max-width: 1000px;*/
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: 1px solid gray;
 }
@@ -55,8 +55,8 @@ h1 {
     margin: 0 auto;
     margin-bottom: 0.5em;
     padding: 1rem;
-    width: 50%;
-    max-width: 350px;
+    width: 90%;
+    max-width: 500px;
     /*background: white;*/
     /*background: radial-gradient(ellipse at center, lightgray 0%,white 100%);*/
     /*background-color: #c3cbdc;*/
@@ -77,8 +77,3 @@ h1 {
     margin-right: 0.5em;
     float: right;
 }
-
-
-
-
-
