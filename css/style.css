@@ -1,0 +1,84 @@
+body {
+    background: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.apicontainer {
+    padding: 1rem;
+    background: white;
+    border: 1px solid lightgrey;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.error {
+    color: yellow;
+    background-color: red;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.5em;
+}
+
+.wait {
+    width: 1%;
+    color: black;
+    background-color: green;
+    font-size: 3em;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0 auto;
+    animation-name: bar;
+    animation-duration: 2s;
+}
+
+@keyframes bar {
+    0%   {width: 0%;}
+    10%  {width: 9%;}
+    20%  {width: 18%;}
+    30%  {width: 27%;}
+    40%  {width: 36%;}
+    50% {width: 45%;}
+    60% {width: 54%;}
+    70% {width: 63%;}
+    80% {width: 72%;}
+    90% {width: 81%;}
+    110% {width: 90%;}
+}
+.apiresult {
+    /*margin: 1rem;*/
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    padding: 1rem;
+    width: 50%;
+    max-width: 350px;
+    /*background: white;*/
+    /*background: radial-gradient(ellipse at center, lightgray 0%,white 100%);*/
+    /*background-color: #c3cbdc;*/
+    background: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+
+.innerresult1 {
+    margin-right: 0.5em;
+}
+
+.innerresult2 {
+    margin: 0 auto;
+}
+
+.innerresult3 {
+    margin-right: 0.5em;
+    float: right;
+}
+
+
+
+
+
