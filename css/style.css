@@ -10,7 +10,6 @@ h1 {
     padding: 1rem;
     background: white;
     border: 1px solid lightgrey;
-    /*max-width: 1000px;*/
     margin: 0 auto;
     width: 90%;
     margin: 0 auto;
@@ -48,18 +47,14 @@ h1 {
     70% {width: 63%;}
     80% {width: 72%;}
     90% {width: 81%;}
-    110% {width: 90%;}
+    100% {width: 90%;}
 }
 .apiresult {
-    /*margin: 1rem;*/
     margin: 0 auto;
     margin-bottom: 0.5em;
     padding: 1rem;
     width: 90%;
     max-width: 500px;
-    /*background: white;*/
-    /*background: radial-gradient(ellipse at center, lightgray 0%,white 100%);*/
-    /*background-color: #c3cbdc;*/
     background: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
     border: 1px solid grey;
     border-radius: 1rem;
